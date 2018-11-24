@@ -38,6 +38,6 @@ class Artist
     ex2dnd
   end
 end
-
+end
 
 
