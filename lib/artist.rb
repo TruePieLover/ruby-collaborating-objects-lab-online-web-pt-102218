@@ -36,6 +36,5 @@ class Artist
       song.name
     end
   end
-  
 end
 
