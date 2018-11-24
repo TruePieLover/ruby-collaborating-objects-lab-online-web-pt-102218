@@ -7,14 +7,11 @@ class Artist
   end
   def add_song(song)
     self.songs << song   
-  end
-
+  en
   def save
-    @@all << self     #saves all created instances of Artist class in 
-                      #@@all class variable
+    @@all << self   
   end
-
-  def self.all      #class method all returns all instances of Artist class 
+  def self.all      
     @@all
   end
 
