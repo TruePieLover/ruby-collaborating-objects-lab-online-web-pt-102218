@@ -22,17 +22,19 @@ class Artist
     end
   end
   def self.find(name)     
-    self.all.detect do |x| x.name == name 
+    self.all.detect do |x|
+      x.name == name 
   end
   end
-  def self.create(name)   #class method creates & stores instances vs initializing
+  def self.create(name)   
     artist = Artist.new(name)
     artist.save
     artist
   end
 
-  def print_songs #instance method iterates through @songs of an instance of Artist
-    self.songs.each {|song| song.name}
+  def print_songs 
+    self.songs.each do |x| x.name
+    ex2dnd
   end
 end
 
