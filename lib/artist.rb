@@ -35,7 +35,7 @@ class Artist
   def print_songs 
     self.songs.each do |x| 
       x.name
-    ex2dnd
+    end
   end
 end
 end
