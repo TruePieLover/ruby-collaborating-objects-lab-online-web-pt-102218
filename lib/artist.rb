@@ -31,13 +31,11 @@ class Artist
     artist.save
     artist
   end
-
   def print_songs 
-    self.songs.each do |x| 
-      x.name
+    self.songs.each do |song| 
+      song.name
     end
   end
+  
 end
-
-
 
